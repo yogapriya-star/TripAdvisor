@@ -1,0 +1,261 @@
+.divider {
+    display: inline-block;
+    height: 20px; /* Adjust the height of the divider */
+    width: 2px; /* Adjust the width of the divider */
+    background-color: #ccc; /* Adjust the color of the divider */
+    margin-right: 10px; /* Adjust the spacing between the divider and the next button */
+    margin-left: 10px;
+}
+.btn-nav:hover{
+    background-color: lightgrey;
+}
+.nav-target{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.nav-div{
+    display: block; /* Align items evenly */
+    padding: 50px;
+}
+.foot-div{
+    margin: 10px;
+}
+.nav-a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav-a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.banner-head{
+    text-align: center;
+    padding: 10px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+}
+
+.categories p{
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.categories p:hover{
+    text-decoration: underline;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s2 input{
+    font-size: 16px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.search-btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+}
+.banner-image{
+    position: relative;
+}
+.banner-image img{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.banner-image__offer{
+    width: 35%;
+    border: solid black 1px;
+    background-color: white;
+    padding: 2%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.recommended{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.recommended p {
+    padding: 10px;
+    margin: 100px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    border: solid black 2px;
+}
+
+.recommended img {
+    padding: 40px;
+    margin: 50px;
+    flex-basis: 10%;
+    flex-grow: 1;
+}
+.popular{
+    margin: 70px;
+}
+
+.popular_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.topics{
+    margin: 70px;
+}
+
+.topics_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.course-card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+}
+
+.course-card img{
+    height: 50%;
+    width: 100%;
+}
+.navbar__s4{
+    display: none;
+}
+
+.footer{
+    padding: 30px;
+    margin: 30px;
+    background-color: #faf1ed;
+    color: black;
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-p{
+    font-size: 15px;
+    width: 50%;
+
+}
+.footer__one__s4{
+    margin-left: 200px;
+}
+.icon{
+    margin-left: 18px;
+}
+/* For screens smaller than 600px */
+@media screen and (max-width: 1000px) {
+    .navbar__s2{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    .nav-div{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 10px;
+    }
+    .navbar__s2{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    .nav-div{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    .navbar__s2{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    .nav-div{
+        display: none;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .categories p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .course-card {
+        flex-basis: 40%;
+    }
+    .categories{
+        display: none;
+    }
+    .navbar__s2{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    .nav-div{
+        display: none;
+    }
+    .foot-p{
+        font-size: 10px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .banner-image img{
+        width: 60%;
+    }
+    .footer__one__s4{
+        margin-left: 50px;
+    }
+}

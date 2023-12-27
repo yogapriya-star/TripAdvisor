@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>TripAdvisor-Clone</title>
+</head>
+<body>
+<nav class="navbar navbar-light bg-light nav-target">
+    <div class="container">
+        <div>
+            <img src="images/Tripadvisor_logo.svg" alt="" width="150" height="150" class="d-inline-block align-text-top">
+        </div>
+        <div class="nav-div">
+            <a class="nav-a" href="#">Discover</a>
+            <a class="nav-a" href="#">Trips</a>
+            <a class="nav-a" href="#">Review</a>
+            <a class="nav-a" href="#">Flights</a>
+        </div>
+        <div class="nav-div">
+            <button type="button" class="btn btn-light rounded-pill btn-nav"><i class="fa-solid fa-globe"></i><div class="divider"></div>INR</button>
+            <button type="button" class="btn btn-dark rounded-pill">Sign In</button>
+        </div>
+        <div class="navbar__s4">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Banner -->
+<div class="banner">
+    <h1 class="banner-head">Where to?</h1>
+    <div class="categories">
+        <p><i class="fa-solid fa-house"></i>  Search All</p>
+        <p><i class="fa-solid fa-hotel"></i> Hotels</p>
+        <p><i class="fa-solid fa-ticket"></i> Things to Do</p>
+        <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
+        <p><i class="fa-solid fa-house-user"></i> HolidayHomes</p>
+    </div>
+    <div  class="navbar__s2">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input placeholder="Places to go, things to do, hotels...">
+        <button class="search-btn">Search</button>
+    </div>
+</div>
+
+<!-- Banner Image -->
+<div class="banner-image">
+    <img src="images/travel-food.jpg" alt="Sale Image">
+</div>
+
+<div class="recommended">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="https://picsum.photos/200" alt="Your Image">
+</div>
+
+<!-- Popular Section -->
+<div class="popular">
+    <h1 class="popular__title">Ways to tour Coimbatore</h1>
+    <p class="popular__title">Book these experiences for a close-up look at Coimbatore.</p>
+    <div class="popular_container">
+        <div class="course-card">
+            <img src="images/c1.jpg" alt="c1Image">
+            <h3>Coimbatore to Ooty-Sightseeing</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹25,658 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c2.jpg" alt="c2Image">
+            <h3>Explore Palani Murugan Temple From Coimbatore</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹19,350 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c3.jpg" alt="c3Image">
+            <h3>Hill Station Tour from Coimbatore to Valparai</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹5,633 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c4.jpg" alt="c4Image">
+            <h3>Hill Station Tour</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹4,633 per adult</p>
+        </div>
+    </div>
+</div>
+
+<!-- Popular Section -->
+<div class="popular">
+    <h1 class="popular__title">Vibrant Asian cities</h1>
+    <p class="popular__title">From rich cultural history to psychedelic streets</p>
+    <div class="popular_container">
+        <div class="course-card">
+            <img src="images/c5.jpg" alt="c5Image">
+            <h3>Pondicherry, India</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹25,658 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c6.jpg" alt="c6Image">
+            <h3>Bengaluru, India</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹19,350 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c7.jpg" alt="c7Image">
+            <h3>Madurai, India</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹5,633 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c8.jpg" alt="c8Image">
+            <h3>Kyoto, Japan</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹4,633 per adult</p>
+        </div>
+    </div>
+</div>
+
+<!-- Topics Section -->
+<div class="topics">
+    <h1 class="topics__title">Top destinations for your next holiday</h1>
+    <p class="topics__title">Here's where your fellow travellers are headed</p>
+    <div class="topics_container">
+        <div class="course-card">
+            <img src="images/c5.jpg" alt="c5Image">
+            <h3>Pondicherry, India</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹25,658 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c6.jpg" alt="c6Image">
+            <h3>Bengaluru, India</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹19,350 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c7.jpg" alt="c7Image">
+            <h3>Madurai, India</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹5,633 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c8.jpg" alt="c8Image">
+            <h3>Kyoto, Japan</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹4,633 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c1.jpg" alt="c1Image">
+            <h3>Coimbatore to Ooty-Sightseeing</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹25,658 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c2.jpg" alt="c2Image">
+            <h3>Explore Palani Murugan Temple From Coimbatore</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹19,350 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c3.jpg" alt="c3Image">
+            <h3>Hill Station Tour from Coimbatore to Valparai</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹5,633 per adult</p>
+        </div>
+        <div class="course-card">
+            <img src="images/c4.jpg" alt="c4Image">
+            <h3>Hill Station Tour</h3>
+            <p><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle" style="color: #84e9bd;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #84e9bd;"></i></p>
+            <p>from ₹4,633 per adult</p>
+        </div>
+    </div>
+</div>
+
+<!-- Banner Image -->
+<div class="banner-image">
+    <img src="images/trip.jpg" alt="Sale Image">
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="footer__one">
+        <div class="footer__one_s1">
+            <h5>About Tripadvisor</h5>
+            <p>About Us</p>
+            <p>Press</p>
+            <p>Resources and policies</p>
+            <p>Career</p>
+            <p>Trust & Safety</p>
+        </div>
+        <div class="footer__one__s2">
+            <h5>Explore</h5>
+            <p>Write a review</p>
+            <p>Add a place</p>
+            <p>Join</p>
+            <p>Help Center</p>
+            <p>Travel Articles</p>
+        </div>
+        <div class="footer__one__s3">
+            <h5>Do Business With Us</h5>
+            <p>Owners & DMO/CVB</p>
+            <p>Business Advantage</p>
+            <p>Sponsored Placements</p>
+            <p>Access our Content API</p>
+        </div>
+        <div class="footer__one__s4">
+            <h5>Tripadvisor Sites</h5>
+            <p>Book tours and attraction tickets on Viator</p>
+            <div class="icon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
+    <div class="footer__two">
+        <p><img src="images/Tripadvisor_logoset_solid_green.svg" alt="logo"> &copy; 2023 Tripadvisor LLC All rights reserved.</p>
+    </div>
+    <div class="foot-p">
+        <p>This is the version of our website addressed to speakers of English in India. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down <a href="#">more</a>. </p>
+    </div>
+</div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ee83a04296.js" crossorigin="anonymous"></script>
+</body>
+</html>
